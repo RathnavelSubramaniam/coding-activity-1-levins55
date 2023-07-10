@@ -6,7 +6,7 @@ app.get('/',(req,res) => {
 })
 
 app.get('/data', (req, res) => {
-  res.send('This my frist set up the express program using git');
+  res.send('This my frist set up the express program using git command');
 });
 
 app.listen(port, () => {
